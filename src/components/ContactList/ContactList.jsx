@@ -1,4 +1,4 @@
-import css from './ContactList.module.css';
+import css from './contactList.module.css';
 
 export const Contactlist = ({ contacts, onDeleteContact }) => {
   return (
@@ -9,7 +9,7 @@ export const Contactlist = ({ contacts, onDeleteContact }) => {
           <button
             type="button"
             className={css.contactList__button}
-            onClick={onDeleteContact}
+            onClick={() => onDeleteContact(id)}
           >
             Delete
           </button>

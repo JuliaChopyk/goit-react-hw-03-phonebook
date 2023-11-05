@@ -1,4 +1,4 @@
-import css from './SearchFilter.module.css';
+import css from './searchFilter.module.css';
 
 export const SearchFilter = ({ filter, onHandleChange }) => {
   return (
